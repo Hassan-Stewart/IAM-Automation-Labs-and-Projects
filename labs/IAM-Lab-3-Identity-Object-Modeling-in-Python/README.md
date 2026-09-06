@@ -27,8 +27,6 @@ Printed identity records in a readable format
 Converted identity objects into JSON using json.dumps()
 
 # Files Included
-lab2_identity_objects.py – Contains identity objects
-
 lab3_json_payload.py – Converts identity objects into JSON
 
 # Screenshots
