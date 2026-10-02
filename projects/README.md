@@ -1,5 +1,11 @@
 # Project 1 - Bulk User Provisioning Automation
  
+# Note: This project uses httpbin.org as a mock API endpoint to safely simulate provisioning calls without requiring live credentials or production systems.
+
+## Real-World Application
+
+This workflow mirrors bulk provisioning patterns used in enterprise IAM platforms (e.g., CyberArk, Microsoft Entra ID, Okta), where new hires, contractors, or service accounts are programmatically onboarded and their provisioning status tracked for auditing and compliance.
+
 ## Objective
  
 This project simulates a real-world IAM provisioning workflow by processing multiple identity records, converting them into JSON payloads, submitting them through an API, validating responses, handling errors, and generating a provisioning summary.
