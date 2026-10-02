@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="WvZamT4l3-N_E7RAQCOW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1c2e7aeyoGw4uwFvZiGE-41" edge="1" parent="1" source="1c2e7aeyoGw4uwFvZiGE-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1c2e7aeyoGw4uwFvZiGE-45" edge="1" parent="1" source="1c2e7aeyoGw4uwFvZiGE-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1c2e7aeyoGw4uwFvZiGE-33" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#1ba1e2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px; color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;User Information&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="140" x="310" y="60" as="geometry">
+            <mxRectangle height="30" width="150" x="310" y="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1c2e7aeyoGw4uwFvZiGE-34" parent="1c2e7aeyoGw4uwFvZiGE-33" style="text;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="&lt;div style=&quot;font-size: 14px; line-height: 20px;&quot;&gt;&lt;div class=&quot;ZFBmb0dx enMwc1pv&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Username&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div class=&quot;dUlWSlBK&quot; style=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;ZFBmb0dx enMwc1pv&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Department&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div class=&quot;dUlWSlBK&quot; style=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;ZFBmb0dx enMwc1pv&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Role&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div class=&quot;dUlWSlBK&quot; style=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;ZFBmb0dx enMwc1pv&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Enabled&lt;/font&gt;&lt;/div&gt;&lt;div class=&quot;dUlWSlBK&quot; style=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;ZFBmb0dx enMwc1pv&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;MFA Enabled&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1c2e7aeyoGw4uwFvZiGE-46" edge="1" parent="1" source="1c2e7aeyoGw4uwFvZiGE-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1c2e7aeyoGw4uwFvZiGE-39" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#1ba1e2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px; color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Identity Object&lt;/font&gt;" vertex="1">
+          <mxGeometry height="54" width="140" x="310" y="290" as="geometry">
+            <mxRectangle height="30" width="150" x="310" y="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1c2e7aeyoGw4uwFvZiGE-40" parent="1c2e7aeyoGw4uwFvZiGE-39" style="text;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="&lt;div style=&quot;font-size: 14px; line-height: 20px;&quot;&gt;&lt;div class=&quot;ZFBmb0dx enMwc1pv&quot;&gt;&lt;div class=&quot;ZFBmb0dx enMwc1pv&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: light-dark(rgb(28, 28, 28), rgb(0, 0, 0));&quot;&gt;Python Dictionary&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1c2e7aeyoGw4uwFvZiGE-43" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#1ba1e2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px; color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Users Collection&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="310" y="424" as="geometry">
+            <mxRectangle height="30" width="150" x="310" y="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1c2e7aeyoGw4uwFvZiGE-44" parent="1c2e7aeyoGw4uwFvZiGE-43" style="text;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="&lt;div style=&quot;font-size: 14px; line-height: 20px;&quot;&gt;&lt;div class=&quot;ZFBmb0dx enMwc1pv&quot;&gt;&lt;div class=&quot;ZFBmb0dx enMwc1pv&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;users []&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="140" y="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
