@@ -1,6 +1,6 @@
 # Project 1 - Bulk User Provisioning Automation
  
-# Note: This project uses httpbin.org as a mock API endpoint to safely simulate provisioning calls without requiring live credentials or production systems.
+# Note - This project uses httpbin.org as a mock API endpoint to safely simulate provisioning calls without requiring live credentials or production systems.
 
 ## Real-World Application
 
