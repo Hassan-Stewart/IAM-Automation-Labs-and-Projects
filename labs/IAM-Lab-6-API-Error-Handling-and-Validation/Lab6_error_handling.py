@@ -11,6 +11,7 @@ print("Formatted JSON Payload")
 print(payload_json)
 
 api_url = "https://example.com/api/users"
+response = None
 
 try:
     response = requests.post(
@@ -38,32 +39,33 @@ except requests.exceptions.Timeout:
 except requests.exceptions.ConnectionError:
     print("Could not connect to the API.")
 
-except requests.exceptions.RequestsExceptions as e:
-    print("Request failed: {e}")
+except requests.exceptions.RequestException as e:
+    print(f"Request failed: {e}")
 
-if requests.status_code == 200:
-    print("Success: Users processed correctly.")
+if response is not None:
+    if response.status_code == 200:
+        print("Success: Users processed correctly.")
 
-elif requests.status_code == 201:
-    print("Success: Users created successfully.")
+    elif response.status_code == 201:
+        print("Success: Users created successfully.")
 
-elif requests.status_code == 400:
-    print("Bad Request: Check your payload.")
+    elif response.status_code == 400:
+        print("Bad Request: Check your payload.")
 
-elif requests.status_code == 401:
-    print("Unauthorized: Check your token.")
+    elif response.status_code == 401:
+        print("Unauthorized: Check your token.")
 
-elif requests.status_code == 403:
-    print("Forbidden: You don't have permission.")
+    elif response.status_code == 403:
+        print("Forbidden: You don't have permission.")
 
-elif requests.status_code == 404:
-    print("Endpoint not found.")
+    elif response.status_code == 404:
+        print("Endpoint not found.")
 
-elif requests.status_code == 500:
-    print("Server Error: Try again later.")
+    elif response.status_code == 500:
+        print("Server Error: Try again later.")
 
-else:
-    print("Unexpected status code received.")
+    else:
+        print("Unexpected status code received.")
 
-    if isinstance(response.status_code, int):
-        print(f"Final Status Code Confirmed: {response.status_code}")
+        if isinstance(response.status_code, int):
+            print(f"Final Status Code Confirmed: {response.status_code}")
