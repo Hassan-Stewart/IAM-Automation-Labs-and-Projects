@@ -1,0 +1,10 @@
+2026-10-11 19:24:44,270 | INFO | Provisioning process started
+2026-10-11 19:24:44,271 | INFO | User loaded: hstewart | Department: IT | Role: IAM Engineer
+2026-10-11 19:24:44,272 | WARNING | MFA not enabled for user = hstewart
+2026-10-11 19:24:44,272 | INFO | User loaded: mandrews | Department: Finance | Role: Analyst
+2026-10-11 19:24:44,272 | INFO | User loaded: awilliams | Department: Marketing | Role: Manager
+2026-10-11 19:24:44,272 | WARNING | MFA not enabled for user = awilliams
+2026-10-11 19:24:44,272 | INFO | User loaded: lsalters | Department: Operations | Role: Specialist
+2026-10-11 19:24:44,273 | INFO | Payload is built for 4 users
+2026-10-11 19:24:45,292 | INFO | Success: Users processed correctly
+2026-10-11 19:24:45,292 | INFO | Provisioning process finished
